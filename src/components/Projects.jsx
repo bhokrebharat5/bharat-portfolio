@@ -32,7 +32,7 @@ const projects = [
     ],
     featured: true,
     link: "https://mxengine.ai/",
-    image: "/src/assets/projects/mtx-engines.jpg",
+    image: "/public/projects/mtx-engines.jpg",
   },
   {
     number: "02",
@@ -48,7 +48,7 @@ const projects = [
       "MySQL",
     ],
     link: "https://fundly.ai",
-    image: "/src/assets/projects/fundly.jpg",
+    image: "/public/projects/fundly.jpg",
   },
   {
     number: "03",
@@ -64,7 +64,7 @@ const projects = [
       "MySQL",
     ],
     link: "https://spacejammit.com/",
-    image: "/src/assets/projects/space-jammit.jpg",
+    image: "/public/projects/space-jammit.jpg",
   },
   {
     number: "04",
@@ -80,7 +80,7 @@ const projects = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/real-profit-analytics",
-    image: "/src/assets/projects/real-profit.jpg",
+    image: "/public/projects/real-profit.jpg",
   },
   {
     number: "05",
@@ -93,7 +93,7 @@ const projects = [
       "REST API",
     ],
     link: "https://www.okyapp.info/",
-    image: "/src/assets/projects/oky.jpg",
+    image: "/public/projects/oky.jpg",
   },
 ];
 
@@ -110,7 +110,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/mywishlist",
-    image: "/src/assets/shopify/my-wishlist.jpg",
+    image: "/public/shopify/my-wishlist.jpg",
   },
   {
     id: "shopify-02",
@@ -124,7 +124,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/persistent-share-cart",
-    image: "/src/assets/shopify/persistent-share-cart.jpg",
+    image: "/public/shopify/persistent-share-cart.jpg",
   },
   {
     id: "shopify-03",
@@ -138,7 +138,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/hubify-earn-loyalty-rewards",
-    image: "/src/assets/shopify/earn-loyalty-rewards.jpg",
+    image: "/public/shopify/earn-loyalty-rewards.jpg",
   },
   {
     id: "shopify-04",
@@ -152,7 +152,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/volume-tiered-pricing",
-    image: "/src/assets/shopify/volume-tiered-pricing.jpg",
+    image: "/public/shopify/volume-tiered-pricing.jpg",
   },
   {
     id: "shopify-05",
@@ -166,7 +166,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/back-in-stock-notification-1",
-    image: "/src/assets/shopify/back-in-stock-notification.jpg",
+    image: "/public/shopify/back-in-stock-notification.jpg",
   },
   {
     id: "shopify-06",
@@ -180,7 +180,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/pinch-zoom",
-    image: "/src/assets/shopify/amazing-zoom-features.jpg",
+    image: "/public/shopify/amazing-zoom-features.jpg",
   },
   {
     id: "shopify-07",
@@ -194,7 +194,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/unlimited-custom-options-1",
-    image: "/src/assets/shopify/product-custom-options.jpg",
+    image: "/public/shopify/product-custom-options.jpg",
   },
 ];
 
@@ -218,7 +218,7 @@ const wordpressContent = [{
     "Integrating Landing Pages"    
   ],
   link: "https://www.studiosweatondemand.com/",
-  image: "/src/assets/wordpress/studio-sweat-ondemand.jpg",
+  image: "/public/wordpress/studio-sweat-ondemand.jpg",
 },
 {
   id: 'wordpress-project-2',
@@ -240,7 +240,7 @@ const wordpressContent = [{
     "JQuery",
   ],
   link: "https://www.resmed.co.in/",
-  image: "/src/assets/wordpress/resmed.jpg",
+  image: "/public/wordpress/resmed.jpg",
 },
 {
   id: 'wordpress-project-3',
@@ -264,7 +264,7 @@ const wordpressContent = [{
     "Spiritual Coaching"
   ],
   link: "https://thebaleskyexperience.com/",
-  image: "/src/assets/wordpress/thebaleskyexperience.jpg",
+  image: "/public/wordpress/thebaleskyexperience.jpg",
 },
 {
   id: 'wordpress-project-4',
@@ -286,7 +286,7 @@ const wordpressContent = [{
     "JQuery",
   ],
   link: "https://santaluzcommunity.com/",
-  image: "/src/assets/wordpress/santaluz.jpg",
+  image: "/public/wordpress/santaluz.jpg",
 }]
 
 
