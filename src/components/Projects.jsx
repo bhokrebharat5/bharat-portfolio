@@ -32,7 +32,7 @@ const projects = [
     ],
     featured: true,
     link: "https://mxengine.ai/",
-    image: "/public/projects/mtx-engines.jpg",
+    image: "/projects/mtx-engines.jpg",
   },
   {
     number: "02",
@@ -48,7 +48,7 @@ const projects = [
       "MySQL",
     ],
     link: "https://fundly.ai",
-    image: "/public/projects/fundly.jpg",
+    image: "/projects/fundly.jpg",
   },
   {
     number: "03",
@@ -64,7 +64,7 @@ const projects = [
       "MySQL",
     ],
     link: "https://spacejammit.com/",
-    image: "/public/projects/space-jammit.jpg",
+    image: "/projects/space-jammit.jpg",
   },
   {
     number: "04",
@@ -80,7 +80,7 @@ const projects = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/real-profit-analytics",
-    image: "/public/projects/real-profit.jpg",
+    image: "/projects/real-profit.jpg",
   },
   {
     number: "05",
@@ -93,7 +93,7 @@ const projects = [
       "REST API",
     ],
     link: "https://www.okyapp.info/",
-    image: "/public/projects/oky.jpg",
+    image: "/projects/oky.jpg",
   },
 ];
 
@@ -110,7 +110,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/mywishlist",
-    image: "/public/shopify/my-wishlist.jpg",
+    image: "/shopify/my-wishlist.jpg",
   },
   {
     id: "shopify-02",
@@ -124,7 +124,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/persistent-share-cart",
-    image: "/public/shopify/persistent-share-cart.jpg",
+    image: "/shopify/persistent-share-cart.jpg",
   },
   {
     id: "shopify-03",
@@ -138,7 +138,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/hubify-earn-loyalty-rewards",
-    image: "/public/shopify/earn-loyalty-rewards.jpg",
+    image: "/shopify/earn-loyalty-rewards.jpg",
   },
   {
     id: "shopify-04",
@@ -152,7 +152,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/volume-tiered-pricing",
-    image: "/public/shopify/volume-tiered-pricing.jpg",
+    image: "/shopify/volume-tiered-pricing.jpg",
   },
   {
     id: "shopify-05",
@@ -166,7 +166,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/back-in-stock-notification-1",
-    image: "/public/shopify/back-in-stock-notification.jpg",
+    image: "/shopify/back-in-stock-notification.jpg",
   },
   {
     id: "shopify-06",
@@ -180,7 +180,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/pinch-zoom",
-    image: "/public/shopify/amazing-zoom-features.jpg",
+    image: "/shopify/amazing-zoom-features.jpg",
   },
   {
     id: "shopify-07",
@@ -194,7 +194,7 @@ const shopifyApp = [
       "Shopify API",
     ],
     link: "https://apps.shopify.com/unlimited-custom-options-1",
-    image: "/public/shopify/product-custom-options.jpg",
+    image: "/shopify/product-custom-options.jpg",
   },
 ];
 
@@ -218,7 +218,7 @@ const wordpressContent = [{
     "Integrating Landing Pages"    
   ],
   link: "https://www.studiosweatondemand.com/",
-  image: "/public/wordpress/studio-sweat-ondemand.jpg",
+  image: "/wordpress/studio-sweat-ondemand.jpg",
 },
 {
   id: 'wordpress-project-2',
@@ -240,7 +240,7 @@ const wordpressContent = [{
     "JQuery",
   ],
   link: "https://www.resmed.co.in/",
-  image: "/public/wordpress/resmed.jpg",
+  image: "/wordpress/resmed.jpg",
 },
 {
   id: 'wordpress-project-3',
@@ -264,7 +264,7 @@ const wordpressContent = [{
     "Spiritual Coaching"
   ],
   link: "https://thebaleskyexperience.com/",
-  image: "/public/wordpress/thebaleskyexperience.jpg",
+  image: "/wordpress/thebaleskyexperience.jpg",
 },
 {
   id: 'wordpress-project-4',
@@ -286,7 +286,7 @@ const wordpressContent = [{
     "JQuery",
   ],
   link: "https://santaluzcommunity.com/",
-  image: "/public/wordpress/santaluz.jpg",
+  image: "/wordpress/santaluz.jpg",
 }]
 
 
