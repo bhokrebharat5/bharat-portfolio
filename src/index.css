@@ -1,0 +1,153 @@
+@import "tailwindcss";
+
+:root {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  color-scheme: dark;
+
+  --background: #08090b;
+  --surface: #101216;
+  --surface-soft: #14161b;
+  --text: #f5f7fa;
+  --text-secondary: #a1a7b3;
+  --text-muted: #686f7d;
+  --border: rgba(255, 255, 255, 0.1);
+  --accent: #2563eb;
+  --accent-soft: rgba(37, 99, 235, 0.12);
+}
+
+[data-theme="light"] {
+  color-scheme: light;
+
+  --background: #f7f7f5;
+  --surface: #ffffff;
+  --surface-soft: #eeeeeb;
+  --text: #111318;
+  --text-secondary: #555b66;
+  --text-muted: #7b818c;
+  --border: rgba(17, 19, 24, 0.1);
+  --accent: #1d4ed8;
+  --accent-soft: rgba(29, 78, 216, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  transition:
+    background-color 300ms ease,
+    color 300ms ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
+
+.dark\:bg-white\/\[0\.03\]:is(.dark *) {
+  background-color: 
+  color-mix(in oklab, var(--color-white) 3%, transparent);
+}
+
+.dark\:border-gray-800:is(.dark *) {
+    border-color: var(--color-gray-800);
+}
+
+/* ========================================
+   PROJECT SLIDER
+======================================== */
+
+.projects-slider .slick-track {
+  display: flex;
+}
+
+.projects-slider .slick-slide {
+  height: inherit;
+}
+
+.projects-slider .slick-slide > div {
+  height: 100%;
+}
+
+/* Dots */
+
+.slick-dots {
+  bottom: 0 !important;
+  left: 0 !important;
+  text-align: left !important;
+  width: auto !important;
+}
+
+.slick-dots li {
+  margin: 0 4px !important;
+  width: 24px !important;
+}
+
+.slick-dots li button:before {
+  display: none !important;
+}
+
+.slick-dots li button {
+  width: 24px !important;
+  height: 3px !important;
+  padding: 0 !important;
+  border-radius: 999px;
+  background: var(--border);
+  transition: all 0.3s ease;
+}
+
+.slick-dots li.slick-active button {
+  background: var(--accent);
+  width: 40px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    cursor: none;
+  }
+
+  a,
+  button {
+    cursor: none;
+  }
+}
+
+@media (max-width: 767px) {
+  body {
+    cursor: auto;
+  }
+}
