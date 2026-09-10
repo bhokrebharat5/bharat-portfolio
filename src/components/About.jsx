@@ -15,7 +15,7 @@ function About() {
               About Me
             </p>
 
-            <div className="relative z-20 md:max-w-[480px] mt-10 col:max-w-[350px]">
+            {/* <div className="relative z-20 md:max-w-[480px] mt-10 col:max-w-[350px]">
               <div className="max-w-[350px] col:max-w-[350px]  text-center rounded-[10px] pb-[180px] bg-gradient-to-b to-[#1B1B19] from-[#2E2C1F] xl:ml-[20px] col:ml-0">
                 <h2 className="text-[140px] col:text-[90px] text-[#FFE600] font-bold base-font">10+</h2>
                 <span className="text-white text-[18px] font-normal ">Years of Experience</span>
@@ -28,6 +28,162 @@ function About() {
                   <span className="odometer" data-count="100">100</span>%
                 </h3>
                 <p className="text-[15px] w-[50%] text-white font-normal base-font">Clients Satisfections</p>
+              </div>
+            </div> */}
+
+            <div
+              className="
+                relative
+                z-20
+                w-full
+                max-w-[480px]
+                mt-10
+              "
+            >
+              {/* Content wrapper */}
+              <div
+                className="
+                  relative
+                  w-full
+                  max-w-[350px]
+                  mx-auto
+                "
+              >
+                {/* Experience Card */}
+                <div
+                  className="
+                    relative
+                    w-full
+                    max-w-[350px]
+                    text-center
+                    rounded-[10px]
+                    pb-[180px]
+                    bg-gradient-to-b
+                    from-[#2E2C1F]
+                    to-[#1B1B19]
+                  "
+                >
+                  <h2
+                    className="
+                      text-[140px]
+                      max-[500px]:text-[90px]
+                      text-[#FFE600]
+                      font-bold
+                      base-font
+                      leading-none
+                      pt-[35px]
+                    "
+                  >
+                    10+
+                  </h2>
+
+                  <span
+                    className="
+                      block
+                      text-white
+                      text-[18px]
+                      max-[500px]:text-[16px]
+                      font-normal
+                      mt-[40px]
+                    "
+                  >
+                    Years of Experience
+                  </span>
+                </div>
+
+                {/* Client Satisfaction Card */}
+                <div
+                  className="
+                    absolute
+                    z-10
+                    bottom-[40px]
+
+                    /* Desktop positioning */
+                    right-[-20px]
+
+                    /* Large desktop */
+                    xl:right-[-20px]
+
+                    /* Tablet */
+                    lg:right-[-10px]
+
+                    /* Mobile */
+                    max-[500px]:right-auto
+                    max-[500px]:left-1/2
+                    max-[500px]:-translate-x-1/2
+
+                    /* Width */
+                    w-[300px]
+                    max-[500px]:w-[calc(100%-20px)]
+
+                    max-w-[300px]
+                    max-[500px]:max-w-[330px]
+
+                    px-[20px]
+                    py-[20px]
+
+                    rounded-[12px]
+
+                    bg-transparent
+
+                    flex
+                    items-center
+                    justify-center
+
+                    before:absolute
+                    before:content-['']
+                    before:left-0
+                    before:top-0
+                    before:w-full
+                    before:h-full
+                    before:opacity-100
+                    before:-z-20
+                    before:rounded-[12px]
+                    before:bg-gradient-to-l
+                    before:from-[#939393]
+                    before:to-[#1c1a1a4d]
+
+                    after:absolute
+                    after:left-[2px]
+                    after:top-[2px]
+                    after:w-[calc(100%-4px)]
+                    after:h-[calc(100%-4px)]
+                    after:content-['']
+                    after:bg-[#2D2B1F]
+                    after:opacity-[.85]
+                    after:-z-10
+                    after:rounded-[12px]
+                  "
+                >
+                  <h3
+                    className="
+                      mr-[15px]
+                      w-1/2
+                      text-[45px]
+                      max-[500px]:text-[40px]
+                      text-[#59C378]
+                      font-bold
+                      base-font
+                      flex
+                      items-center
+                    "
+                  >
+                    <span className="odometer">100</span>%
+                  </h3>
+
+                  <p
+                    className="
+                      w-1/2
+                      text-[15px]
+                      max-[500px]:text-[14px]
+                      text-white
+                      font-normal
+                      base-font
+                    "
+                  >
+                    Clients Satisfections
+                  </p>
+                </div>
               </div>
             </div>
           </div>

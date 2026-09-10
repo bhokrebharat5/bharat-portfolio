@@ -1,6 +1,8 @@
 import SliderImport from "react-slick";
 import { motion } from "framer-motion";
 
+import { useMediaQuery } from '../hooks/useMediaQuery';
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -292,30 +294,17 @@ const wordpressContent = [{
 
 function Projects() {
 
+  const isMobile = useMediaQuery('(max-width: 639px)');
+  const isTablet = useMediaQuery('(max-width: 1023px)');
+
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: isMobile ? 1 : isTablet ? 2 : 3,
     slidesToScroll: 1,
     arrows: true,
     adaptiveHeight: false,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 640,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
   };
 
 
